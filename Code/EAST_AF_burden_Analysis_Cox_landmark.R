@@ -27,7 +27,7 @@ library(broom)        #v 1.0.7
 # Data set contains only patients with available AF burden variable (P_AF_1y)
 
 ### please add path
-data <- read.csv("C:/Users/Katrim at Work/Documents/EAST_sub_ECG/Code_Export/Test_data_AF_burden.csv"
+data <- read.csv("../Data/Test_data_AF_burden.csv"
                  ,stringsAsFactors = F, sep=",")
 
 
